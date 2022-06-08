@@ -6,4 +6,7 @@ void main() {
   var tu = bb.TimeUtils();
   print('TimeUnits version: ${tu.timeUtilsVersion}');
 
+
+  print('current time stamp: ${tu.getCurrrentTimestamp()}');
+  print('current time in millseconds: ${tu.getCurrentMillseconds()}');
 }

@@ -1,6 +1,6 @@
 name: bsmi_base
-description: BSMI team base library
-version: 1.0.1
+description: BSMI team base library, include time parse and convert , string format and convert, and other more tools.
+version: 1.0.2
 homepage: https://kb.bsmi.info
 
 environment:

@@ -1,7 +1,7 @@
 ## 1.0.1
 
-* 增加 获取当前unix 时间戳的 方法
-* 增加 获取当前微秒时间戳的方法
+* Add method to get unix timestamp;
+* add method to get unix timestamp with millseconds;
 
 ## 1.0.0
 

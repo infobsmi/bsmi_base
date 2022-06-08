@@ -1,5 +1,3 @@
-import 'dart:convert';
-
 class TimeUtils {
   int get timeUtilsVersion => 1;
   //获取当前时间的unix时间戳

@@ -1,6 +1,6 @@
-/// Support for doing something awesome.
-///
-/// More dartdocs go here.
+/**
+ * bsmi 基本类库
+ */
 library bsmi_base;
 
 export 'src/bsmi_base_base.dart';

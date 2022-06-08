@@ -1,4 +1,8 @@
-## 1.0.3 
+## 1.0.4
+
+* update comment style
+
+## 1.0.3
 
 * add document for comment
 

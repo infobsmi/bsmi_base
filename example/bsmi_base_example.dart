@@ -1,9 +1,9 @@
-import 'package:bsmi_base/bsmi_base.dart' ;
+import 'package:bsmi_base/bsmi_base.dart' as bb ;
 void main() {
-  var awesome = Awesome();
+  var awesome = bb.Awesome();
   print('awesome: ${awesome.isAwesome}');
 
-  var tu = TimeUtils();
+  var tu = bb.TimeUtils();
   print('TimeUnits version: ${tu.timeUtilsVersion}');
 
 }

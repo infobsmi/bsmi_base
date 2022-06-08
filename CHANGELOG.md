@@ -1,3 +1,5 @@
+## 1.0.2 
+* format source code
 ## 1.0.1
 
 * Add method to get unix timestamp;

@@ -21,7 +21,7 @@ class DemoYml {
     }
   }
 
-  factory DemoYml.fromJson(Map json) => _$DemoYmlFromJson(json);
+  factory DemoYml.fromJson(Map? json) => _$DemoYmlFromJson(json!);
 
   Map<String, dynamic> toJson() => _$DemoYmlToJson(this);
 
@@ -45,5 +45,5 @@ void main() {
   print('yaml map: ${yt.loadYamlMapFromFile("example/demo.yml")}');
 
   var yt2 = bb.YamlUtils<DemoYml>();
-  print('yaml: ${yt2.parseYamlFileToClass("example/demo.yml", (p0) => DemoYml.fromJson(p0!))}');
+  print('yaml: ${yt2.parseYamlFileToClass("example/demo.yml", DemoYml.fromJson)}');
 }

@@ -9,4 +9,8 @@ void main() {
 
   print('current time stamp: ${tu.getCurrrentTimestamp()}');
   print('current time in millseconds: ${tu.getCurrentMillseconds()}');
+
+  var yt = bb.YamlUtils();
+
+  print('yaml map: ${yt.loadYamlMapFromFile("example/demo.yml")}');
 }

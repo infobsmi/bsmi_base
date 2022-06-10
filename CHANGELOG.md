@@ -1,3 +1,7 @@
+## 1.0.6
+
+* Add parseYamlFileToClass method
+
 ## 1.0.5
 * Add yaml utils
 

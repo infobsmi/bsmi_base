@@ -10,6 +10,7 @@ part 'bsmi_base_example.g.dart';
   anyMap: true,
   checked: true,
   disallowUnrecognizedKeys: true,
+  explicitToJson: true,
 )
 class DemoYml {
   @JsonKey(required: true)
